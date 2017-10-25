@@ -33,12 +33,24 @@ header nav{
 
 }
 h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+h3{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  text-align: center;
+}
+#nav{
+  margin-right: 30px;
 }
 ul{
-  margin-right: 30px;
+  padding-left: 0px;
 }
 ul li{
   display: flex;
@@ -124,14 +136,50 @@ ul li{
 }
 
 .small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 240px;
+}
+.bite{
+  display: block;
+  position: relative;
+  align-items: center;
 }
 .bite li{
     display: block;
-    padding: 11px 20px;
+    padding: 11px 20px 11px 40px;
     border-bottom: 1px solid black;
     background-color: WhiteSmoke;
     font-family: Verdana;
     font-size: 12px;
     color: DimGray;
+    width: auto;
+
+}
+div{
+  display:block;
+}
+/*footer*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: auto;
+  height: 300px;
+}
+#footertitle{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.inline-block{
+  display: inline-block;
 }
